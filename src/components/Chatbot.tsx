@@ -174,7 +174,7 @@ const Chatbot = () => {
               </motion.div>
               <div className="flex-1 relative">
                 <h4 className="text-sm font-display font-bold text-foreground flex items-center gap-1.5">
-                  M3GAN AI
+                  Zoro AI
                   <motion.span
                     animate={{ rotate: [0, 20, -20, 0] }}
                     transition={{ duration: 1.5, repeat: Infinity, repeatDelay: 3 }}
