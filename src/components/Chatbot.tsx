@@ -151,7 +151,8 @@ const Chatbot = () => {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 40, scale: 0.85 }}
             transition={{ type: "spring", stiffness: 300, damping: 22 }}
-            className="fixed bottom-6 right-6 z-50 w-[370px] h-[530px] rounded-3xl overflow-hidden flex flex-col border border-primary/20 bg-background shadow-2xl"
+            // className="fixed bottom-6 right-6 z-50 w-[370px] h-[530px] rounded-3xl overflow-hidden flex flex-col border border-primary/20 bg-background shadow-2xl"
+            className="fixed bottom-0 right-0 z-50 w-full h-full sm:bottom-6 sm:right-6 sm:w-[370px] sm:h-[530px] sm:rounded-3xl rounded-none overflow-hidden flex flex-col border border-primary/20 bg-background shadow-2xl"
             style={{ boxShadow: "0 20px 60px hsl(187 100% 50% / 0.12), 0 0 0 1px hsl(var(--border))" }}
           >
             {/* Header with cute robot */}
